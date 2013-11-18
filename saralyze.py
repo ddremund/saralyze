@@ -26,9 +26,7 @@ def process_lines(lines):
 	cpudata = ''
 	memdata = ''
 	loaddata = ''
-	cpuindex = 0
-	memindex = 0
-	loadindex = 0
+	cpuindex = memindex = loadindex = 0
 
 	for index, data in enumerate(lines):
 		tokens = data.split()
